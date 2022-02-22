@@ -1,0 +1,285 @@
+*{
+    list-style: none;
+    margin: 0;
+    text-decoration: none;
+}
+div.homepage
+{
+    width: 100%;
+    height:100vh;
+    background-color: RGB(189, 39, 188);
+}
+div.header
+{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+}
+div.logo
+{
+ margin-left:50px;
+ margin-top: -20px;
+}
+div.logo img{
+    width: 180px;
+
+}
+
+
+div.navigation ul
+{
+display: flex;
+margin-right: 45px;
+margin-top: 30px;
+}
+
+div.navigation ul li 
+{
+   padding: 0 30px ;
+
+}
+div.navigation ul li a{
+    color: white;
+    font-weight:700;
+}
+
+div.navigation ul li a:hover
+{
+  color:  lightgreen;
+}
+div.navigation ul li.border
+{
+    border-right: 2px solid white;
+}
+
+div.home{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+  height: 70vh;
+  background-color: RGB(189, 39, 188);
+  
+}
+
+div.home div.image img
+{
+ width: 250px;
+ padding:50px 7px;
+ border-radius: 30px;
+ background-color:white;
+
+ 
+}
+
+div .content  h1
+{
+font-size: 70px;
+color: white;
+font-weight: 1000;
+margin-top: 100px;
+
+}
+
+div .content a button
+{
+ padding: 15px 30px;
+ background-color: white;
+ margin-top: 30px;
+ border: 0;
+ border-radius: 40px;
+ font-weight:800;
+}
+
+
+div .content a button :hover{
+ font-size: 25px;
+}
+
+div.yspotify{
+
+height: 80vh;
+width: 100%;
+
+
+}
+div.common
+{
+    margin-left: 22px;
+}
+div.yspotify div.container
+{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.yspotify h1{
+    text-align:center ;
+    margin-top: 50px;
+    padding: 100px;
+    font-size: 50px;
+    font-weight: 800px;
+
+}
+ .common h4
+ {
+     
+ }
+
+#common2
+{
+    margin-top: 12px;
+    font-size: 13px;
+    /* font-family: monospace; */
+}
+.credit
+{
+ width: 100%;
+ height: 407px;   
+ background: linear-gradient(#be28bd,rgb(37, 25, 197)      );
+ margin-top: 121px;
+}
+
+#credit1{
+    font-size: 52px;
+    padding-top: 130px;
+    padding-left: 562px;
+    color: white;
+}
+#credit2{
+    margin-left: 498px;
+    color: white;
+    font-size: 49px;
+    margin-left: 409px;
+}
+/* .ques
+{
+ font-size: 50px;
+}
+.questions1  h1{
+    font-size: 5px;
+}
+
+
+.tag{
+    width: 100%;
+    height: 500px;
+    background-color:aqua;
+    display: flex;
+} */
+div.questions
+{
+height: 500px;
+}
+div.questions h1{
+font-size: 50px;
+margin-top: -50px;
+}
+div.questions div.container
+
+
+{
+display: block;
+margin-top: -50px;
+}
+div.questions div.container h3
+{
+ width: 100%;
+ margin-top: 50px;
+
+ 
+}
+div.ready
+{
+width: 100%;
+height: 500px;
+position: relative;
+background: linear-gradient(#be28bd,rgb(37, 25, 197)      );
+text-align: center;
+}
+div.ready h1
+{  
+   
+    font-size: 60px;
+    color: white;
+  
+}
+div.ready button
+{
+ padding: 15px 50px;
+ border-radius: 30px;
+ border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section1
+{
+    
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.section1 div img{
+    width: 200px;
+   
+
+}
+.section1 div ul
+{
+    margin-top: 50px;
+}
+.section1 div ul li
+{
+    color: aliceblue;
+    margin-top: 30px;
+    
+}
+.section1 div ul li:hover
+{
+
+    color: lightgreen;
+}
+.section1 div ul li.section2{
+    color: grey;
+}
+.footer1{
+  
+    background-color: black;
+    height: 100px;
+}
+
+.footer1 div{
+ 
+}
+.footer1 div ul{
+
+ display: flex;
+  }
+.footer1 div ul li{
+
+color: white;
+margin-right: 20px;
+}
+.footer1 div ul li:hover
+{
+
+    color: lightgreen;
+}
